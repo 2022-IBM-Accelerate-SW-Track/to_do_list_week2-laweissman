@@ -12,6 +12,10 @@ class Home extends Component {
     };
   }
 
+
+
+  
+
   deleteTodo = (id) => {
     const todos = this.state.todos.filter((todo) => {
       return todo.id !== id;
